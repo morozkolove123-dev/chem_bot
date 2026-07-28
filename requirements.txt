@@ -1,0 +1,5 @@
+pytelegrambotapi
+easyocr
+openai
+python-Levenshtein
+pillow
