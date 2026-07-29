@@ -1,5 +1,6 @@
 {
   "$schema": "https://schema.railpack.com",
+  "buildAptPackages": ["tesseract-ocr", "tesseract-ocr-rus"],
   "deploy": {
     "startCommand": "python bot_simple.py"
   }

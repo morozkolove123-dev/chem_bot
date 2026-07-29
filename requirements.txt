@@ -1,5 +1,4 @@
 pytelegrambotapi
-easyocr
-openai
-python-Levenshtein
-pillow
+pytesseract
+opencv-python-headless
+Pillow
