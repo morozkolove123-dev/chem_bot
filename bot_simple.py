@@ -5,7 +5,11 @@ import re
 import io
 from PIL import Image
 import pytesseract
+import os
 
+# Указываем путь к Tesseract (для Railway)
+if os.name == 'posix':  # Linux (Railway)
+    pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 # Настройка
 logging.basicConfig(level=logging.INFO)
 
